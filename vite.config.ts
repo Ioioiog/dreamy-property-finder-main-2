@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: 'dreamy-property-finder-main-2',
+  base: '/dreamy-property-finder-main-2',
   plugins: [
     react(),
     mode === 'development' && componentTagger(),
